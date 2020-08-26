@@ -1,0 +1,14 @@
+[
+ { 
+   "remote": "gitlab", 
+   "repository":"Pranavkapoor001/proprietary_vendor_asus", 
+   "target_path":"vendor/asus", 
+   "branch": "lineage-17.1"
+  },
+ { 
+    "remote": "gitlab", 
+    "repository":"Pranavkapoor001/kernel_asus_sdm660", 
+    "target_path":"kernel/asus/sdm660", 
+    "branch": "Stardust"
+  }
+]
