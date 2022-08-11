@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X00T.mk
+    $(LOCAL_DIR)/arrow_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_X00T-user \
-    xtended_X00T-userdebug \
-    xtended_X00T-eng
+    arrow_X00T-user \
+    arrow_X00T-userdebug \
+    arrow_X00T-eng

@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Bootanimation Res
+# Arrow Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-
+DEVICE_MAINTAINER := ChikaTakami17 x AslenoFarid
 # OFFICIAL
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_MAINTAINER := PranavKpr
